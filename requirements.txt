@@ -1,0 +1,45 @@
+# Railway-optimized requirements.txt for TailingsIQ Backend
+# Using stable, tested versions for reliable deployment
+
+# Core FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+motor==3.3.2
+pymongo==4.6.0
+
+# AI/ML APIs
+openai==1.3.8
+anthropic==0.7.8
+
+# AWS SDK (for S3 storage)
+boto3==1.34.0
+botocore==1.34.0
+
+# Data processing
+pandas==2.1.4
+numpy==1.24.4
+
+# HTTP requests
+requests==2.31.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# Security and authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Development and testing (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
